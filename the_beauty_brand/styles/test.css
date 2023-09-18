@@ -14,22 +14,16 @@ body{
 }
 
 .branding-header{
+    padding: 10px;
+    background-color: white;
+    border: 4px;
+    width: 100%;
+    max-width: none;
     background-color: tomato;
-    color: white;
-    padding: 20px;
 }
 
 #navbar{
-    text-align: center;
     background-color: tomato;
-    align-self: center;
-    gap: 100px;
-} 
-
-#navbar a{
-    text-decoration: none;
-    color: antiquewhite;
-    margin: 0 15px;
     gap: 100px;
 }
 
