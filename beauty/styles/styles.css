@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #AFA2FF;
 }
 
 .content.container{
@@ -14,14 +15,14 @@ body{
 }
 
 .branding-header{
-    background-color: tomato;
+    background-color: black;
     color: white;
     padding: 20px;
 }
 
 #navbar{
     text-align: center;
-    background-color: tomato;
+    background-color: black;
     align-self: center;
     gap: 100px;
 } 
@@ -31,6 +32,7 @@ body{
     color: antiquewhite;
     margin: 0 15px;
     gap: 100px;
+        color: white;
 }
 
 nav {
@@ -47,5 +49,5 @@ nav a{
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    color: antiquewhite;
+    color: black;
 }
