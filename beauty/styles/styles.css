@@ -1,4 +1,14 @@
 /* This section belongs to the "Home Page". */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&family=Raleway:wght@500&display=swap');
+
+/* Fonts: Lato, Playfair Display, Raleway. */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #AFA2FF;
+    color: black;
+}
 
 .content.container{
     display: grid;
@@ -30,6 +40,7 @@
     margin: 0 15px;
     gap: 100px;
     color: antiquewhite;
+    font-family: 'Playfair Display' , sans-serif;
 }
 
 nav {
@@ -49,17 +60,8 @@ nav a{
     color: black;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #AFA2FF;
-    color: black;
-}
-
 .site-footer{
     background-color: black;
     color: antiquewhite;
     padding: 20px;
 }
-
-
