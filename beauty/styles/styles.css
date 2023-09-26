@@ -29,7 +29,7 @@ body, html{
 
 #navbar{
     text-align: center;
-    background-color: black;
+    background-color: black;;
     align-self: center;
     gap: 100px;
 } 
@@ -62,8 +62,7 @@ nav a{
 
 .hero-image{
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/the_beauty_brand_hero_image\ 2.jpg");
-    height: 95%;
+    height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,12 +70,21 @@ nav a{
     position: relative;
 }
 
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+  
 .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #AFA2FF;
+    background-color: #736372;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -84,11 +92,11 @@ nav a{
 }
 
 .hero-image:hover .overlay {
-    height: 70%;
+    height: 100%;
 }
 
 .over-text {
-    color: white;
+    color: antiquewhite;
     font-size: 20px;
     position: absolute;
     top: 50%;
